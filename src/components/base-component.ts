@@ -1,5 +1,4 @@
-
-	//Class Component Base && cant instantiate it
+//Class Component Base && cant instantiate it
 	export abstract class Component<T extends HTMLElement, U extends HTMLElement> {
 		templateElement: HTMLTemplateElement;
 		hostElement: T;
@@ -27,7 +26,7 @@
 			this.attach(insertAtStart);
 		}
 		private attach(insertAtBeginning: boolean) {
-			// before the closing tag of the host element
+			// before or after  the closing tag of the host element
 			this.hostElement.insertAdjacentElement(
 				insertAtBeginning ? 'afterbegin' : 'beforeend',
 				this.element,

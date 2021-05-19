@@ -1,5 +1,5 @@
 
-import { Project,ProjectStatus } from './../model/project.js';
+import { Project,ProjectStatus } from './../model/project';
 	// Project State Manafement
 	type Listerner<T> = (items: T[]) => void;
 
