@@ -1,6 +1,5 @@
 # Drag & Drop with Typesript and Webpack
 
----
 ## 🧐 About <a name = "about"></a>
 Drag & Drop allows users to manage their active or finished projects. Users can create a  record card by entering the title, the description, and the numbers of people participating the project. Users can also drag each card their choose to switch the project status from active to finish.
 ## 🚀 Start The Program <a name = "deployment"></a>
