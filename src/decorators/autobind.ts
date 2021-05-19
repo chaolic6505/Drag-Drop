@@ -1,4 +1,4 @@
-namespace App {
+
 	//autobind decorator
 	export const autobind = (
 		target: any,
@@ -16,4 +16,4 @@ namespace App {
 
 		return adjDescriptor;
 	};
-}
+

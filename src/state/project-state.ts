@@ -1,4 +1,5 @@
-namespace App {
+
+import { Project,ProjectStatus } from './../model/project.js';
 	// Project State Manafement
 	type Listerner<T> = (items: T[]) => void;
 
@@ -52,4 +53,4 @@ namespace App {
 		}
 	}
 	export const projectState = ProjectState.getInstance();
-}
+
