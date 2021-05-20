@@ -12,7 +12,7 @@
     "typescript",
     "course"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Steven Chen",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "*",
